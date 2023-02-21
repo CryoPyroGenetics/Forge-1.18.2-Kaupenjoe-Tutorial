@@ -1,5 +1,6 @@
 package com.cryopyrogenetics.tutorialmod;
 
+import com.cryopyrogenetics.tutorialmod.block.ModBlocks;
 import com.cryopyrogenetics.tutorialmod.item.ModItems;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.Blocks;
@@ -32,6 +33,7 @@ public class TutorialMod {
         IEventBus eventBus = FMLJavaModLoadingContext.get().getModEventBus();
 
         ModItems.register(eventBus);
+        ModBlocks.register(eventBus);
 
         eventBus.addListener(this::setup);
         // Register the enqueueIMC method for modloading
