@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "tutorialmod:raw_citrine_block"
+    }
+  ],
+  "result": {
+    "item": "tutorialmod:raw_citrine",
+    "count": 9
+  }
+}
