@@ -1,6 +1,7 @@
 package com.cryopyrogenetics.tutorialmod.block;
 
 import com.cryopyrogenetics.tutorialmod.TutorialMod;
+import com.cryopyrogenetics.tutorialmod.block.custom.SpeedyBlock;
 import com.cryopyrogenetics.tutorialmod.item.ModCreativeModeTab;
 import com.cryopyrogenetics.tutorialmod.item.ModItems;
 import net.minecraft.world.item.BlockItem;
@@ -42,6 +43,10 @@ public class ModBlocks {
 
     public static final RegistryObject<Block> NETHERRACK_CITRINE_ORE = registerBlock("netherrack_citrine_ore",
             () -> new Block(BlockBehaviour.Properties.of(Material.STONE)
+                    .strength(3f).requiresCorrectToolForDrops()), ModCreativeModeTab.TUTORIAL_TAB);
+
+    public static final RegistryObject<Block> SPEEDY_BLOCK = registerBlock("speedy_block",
+            () -> new SpeedyBlock(BlockBehaviour.Properties.of(Material.STONE)
                     .strength(3f).requiresCorrectToolForDrops()), ModCreativeModeTab.TUTORIAL_TAB);
 
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block, CreativeModeTab tab) {
