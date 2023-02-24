@@ -1,6 +1,7 @@
 package com.cryopyrogenetics.tutorialmod.item;
 
 import com.cryopyrogenetics.tutorialmod.TutorialMod;
+import com.cryopyrogenetics.tutorialmod.item.custom.CoalCokeItem;
 import com.cryopyrogenetics.tutorialmod.item.custom.DowsingRodItem;
 import net.minecraft.world.item.Item;
 import net.minecraftforge.eventbus.api.IEventBus;
@@ -23,6 +24,10 @@ public class ModItems {
 
     public static final RegistryObject<Item> CUCUMBER = ITEMS.register("cucumber",
             () -> new Item(new Item.Properties().tab(ModCreativeModeTab.TUTORIAL_TAB).food(ModFoods.CUCUMBER)));
+
+    public static final RegistryObject<Item> COAL_COKE = ITEMS.register("coal_coke",
+            () -> new CoalCokeItem(new Item.Properties().tab(ModCreativeModeTab.TUTORIAL_TAB)));
+
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);
