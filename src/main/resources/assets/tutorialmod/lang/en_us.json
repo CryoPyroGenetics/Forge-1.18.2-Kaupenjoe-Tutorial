@@ -1,4 +1,5 @@
 {
+  "item.tutorialmod.dowsing_rod": "Dowsing Rod",
   "item.tutorialmod.citrine":"Citrine",
   "item.tutorialmod.raw_citrine":"Raw Citrine",
 
@@ -9,5 +10,7 @@
   "block.tutorialmod.endstone_citrine_ore": "Endstone Citrine Ore",
   "block.tutorialmod.netherrack_citrine_ore": "Netherrack Citrine Ore",
 
-  "itemGroup.tutorialtab": "Tutorial Mod"
+  "itemGroup.tutorialtab": "Tutorial Mod",
+
+  "item.tutorialmod.dowsing_rod.no_valuables": "No Valuables Found!"
 }
