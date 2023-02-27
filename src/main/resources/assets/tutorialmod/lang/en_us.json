@@ -5,6 +5,12 @@
   "item.tutorialmod.coal_coke":"Coal Coke",
   "item.tutorialmod.cucumber":"Cucumber",
 
+  "item.tutorialmod.citrine_sword": "Citrine Sword",
+  "item.tutorialmod.citrine_pickaxe": "Citrine Pickaxe",
+  "item.tutorialmod.citrine_axe": "Citrine Axe",
+  "item.tutorialmod.citrine_shovel": "Citrine Shovel",
+  "item.tutorialmod.citrine_hoe": "Citrine Hoe",
+
   "block.tutorialmod.citrine_block": "Citrine Block",
   "block.tutorialmod.raw_citrine_block": "Raw Citrine Block",
   "block.tutorialmod.citrine_ore": "Citrine Ore",
