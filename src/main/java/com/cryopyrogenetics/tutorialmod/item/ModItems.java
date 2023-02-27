@@ -3,6 +3,7 @@ package com.cryopyrogenetics.tutorialmod.item;
 import com.cryopyrogenetics.tutorialmod.TutorialMod;
 import com.cryopyrogenetics.tutorialmod.item.custom.CoalCokeItem;
 import com.cryopyrogenetics.tutorialmod.item.custom.DowsingRodItem;
+import com.cryopyrogenetics.tutorialmod.item.custom.LevitationSwordItem;
 import net.minecraft.world.item.*;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
@@ -29,7 +30,7 @@ public class ModItems {
             () -> new CoalCokeItem(new Item.Properties().tab(ModCreativeModeTab.TUTORIAL_TAB)));
 
     public static final RegistryObject<Item> CITRINE_SWORD = ITEMS.register("citrine_sword",
-            () -> new SwordItem(ModTiers.CITRINE, 2, 3f,
+            () -> new LevitationSwordItem(ModTiers.CITRINE, 2, 3f,
                     new Item.Properties().tab(ModCreativeModeTab.TUTORIAL_TAB)));
 
     public static final RegistryObject<Item> CITRINE_PICKAXE = ITEMS.register("citrine_pickaxe",
